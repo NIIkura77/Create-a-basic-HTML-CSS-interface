@@ -1,0 +1,226 @@
+/* -- RESPONSIVE TABLETTE -- */
+
+@media screen and (max-width: 992px)
+{
+    body
+    {
+        width: auto;
+        font-size: larger;
+        margin-top: 50px;
+        padding: 0;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+
+
+    section
+    {
+        flex-direction: column-reverse;
+    }
+
+
+
+    /* -- NAVIGATION DE LA PAGE -- */
+
+
+    .tailleglobal
+    {
+    width: 50%;
+	margin-right: 20px;
+    }
+
+
+    /* -- FILTRES -- */
+
+
+    .conteneurfiltre
+    { 
+        border: none;
+        border-width: auto;
+    }
+
+
+
+
+    /* -- HEBERGEMENTS -- */
+
+
+    .conteneurheberg
+    {
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+
+
+    .bloc1
+    {
+        width: 90%;
+        height: 350px;
+        margin-bottom: 30px;
+        font-size: larger;
+    }
+
+
+    .ligne1
+    {   
+
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+
+    .ligne2
+    {   
+
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+
+
+    .margintextheberg
+    {
+        margin-left: 40px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .image1, .image2, .image3, .image4, .image5, .image6
+    {
+        height: 72%;
+    }
+
+
+
+    /* -- POPULAIRE -- */
+
+
+    .conteneurpopulaire
+    {
+        width: 100%;
+        height: auto;
+        border-radius: 0%;
+        margin: 0;
+        
+    }
+
+
+
+    .bloc2
+    {
+        width: 80%;
+        height: 200px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px #D3D3D3;
+        padding: 5px;
+        margin-left: 90px;
+        font-size: larger;
+	
+    }
+
+
+    .margintitrepop
+    {
+        margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .marginicon
+    {
+        margin-right: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    /* -- ACTIVITES -- */
+
+
+    .activites
+    {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+
+    .margintitreacti
+    {
+        margin-left: 40px;
+    }
+
+
+    .conteneuracti
+    {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+
+    .conteneurimg2-3-5-6
+    {
+	    width: 90%;
+        height: auto;
+    }
+
+
+    .bloc10-11
+    {
+        width: 90%;
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+
+    .bloc12, .bloc13, .bloc14
+    {
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+
+    .image10, .image11, .image12, .image13, .image14, .image15
+    {
+        height: 250px;
+    }
+
+    
+    /* -- FOOTER -- */
+
+
+
+    .conteneurfooter
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        width: auto;
+        padding-left: 20px;
+    }
+
+    .blocfooter
+    {
+	    height: auto;
+    }
+
+
+    .margefooterLeft
+    {
+        margin-left: 0;
+    }
+
+
+}

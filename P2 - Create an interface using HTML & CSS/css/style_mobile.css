@@ -1,0 +1,256 @@
+/* -- RESPONSIVE MOBILE -- */
+
+@media screen and (max-width: 767px)
+{
+    body
+    {
+        font-size: large !important;
+        margin-bottom: 0 !important;
+        margin-top: 20px !important;
+    
+    }
+  
+
+    /* -- HEADER -- */
+
+
+    nav
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .tailleglobal
+    {
+        width: 100% !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .taillelien
+    {
+        width: 100% !important;
+        height: 50px !important;
+    }
+
+    .taillelogo
+    {
+        height: 60px;
+        width: 120px;
+        margin-top: 20px;
+    }
+
+
+    .marginmobile
+    {
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+
+
+    .bluebordertop
+    {
+        border-top: 0 solid transparent !important;
+        border-bottom: 3px solid #e7e7e7 !important;
+    }
+
+
+    .bluebordertop:hover
+    {
+        border-bottom: 3px solid #0065FC !important;
+        cursor: pointer;
+    }
+
+
+    .bluebordertop:hover > a
+    {
+        color: #0065FC;
+        font-weight: bold;
+    }
+
+
+    /* -- BARRE DE RECHERCHE -- */
+
+
+
+    .iconmark
+    {
+        width: 50px;
+        height: 50px;
+        background-color: #F2F2F2;
+        border-radius: 15px 0 0 15px;
+    }
+
+
+    .bordureSearch
+    {
+        width: 300px;
+        border-radius: 15px;
+        margin: auto !important;
+    }
+
+
+
+    .searchbartext
+    {
+        width: 200px;
+        border: 1px solid #F2F2F2;
+        border-right: none;
+    }
+
+
+
+    .buttonsearch
+    {
+        width: 50px;
+        color: white;
+        background-color: #0065FC;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+
+    .mobileremove
+    {
+        display: none;
+    }
+
+
+    .pcremove
+    {
+        display: block;
+    }
+
+
+
+    /* -- INFORMATION -- */
+
+
+    .cercleinfo
+    {
+        width: 30px;
+        height: 20px;
+        border: 2px solid #F2F2F2;
+        border-radius: 70px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        padding: 2px;	
+    }
+
+
+    /* -- HEBERGEMENTS -- */
+
+    
+    .ligne1
+    {
+        margin-right: 0 !important;
+    }
+
+
+    .ligne2
+    {
+        margin-right: 0 !important;
+    }
+
+
+    .bloc1
+    {
+        width: 90% !important;
+        height: 220px !important;
+    }
+
+
+    .image1, .image2, .image3, .image4, .image5, .image6
+    {
+        height: 130px !important;
+    }
+
+
+    .margintextheberg
+    {
+        margin-left: 25px !important;
+    }
+
+
+
+    /* -- POPULAIRE -- */
+
+
+    .bloc2
+    {
+        width: 90% !important;
+        height: 135px !important;
+        font-size: large !important;
+        margin-left: 20px !important;
+    }
+
+
+
+    .image7, .image8, .image9
+    {
+        height: 100px;
+    }
+
+
+
+    .margintitrepop
+    {
+        margin-left: 25px !important;
+    }
+
+
+    .marginicon
+    {
+        margin-right: 10px !important;
+    }
+
+
+
+    /* -- ACTIVITES -- */
+
+
+
+    .conteneurimg2-3-5-6
+    {
+	    width: 90% !important;
+    }
+
+
+    .bloc10-11
+    {
+        width: 90% !important;
+        height: 200px !important;
+    }
+
+
+    .bloc12, .bloc13, .bloc14
+    {
+        height: 200px !important;
+    }
+
+
+    .image10, .image11, .image12, .image13, .image14, .image15
+    {
+        height: 150px !important;
+    }
+
+
+    .margintitreacti
+    {
+        margin-left: 25px !important;
+    }
+
+
+
+    /* -- FOOTER -- */
+
+
+    .conteneurfooter
+    {
+        margin-top: 0 !important;
+    }
+
+    
+}

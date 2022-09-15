@@ -1,0 +1,791 @@
+/* -- POLICE DU SITE -- */
+
+
+body
+{ 
+	max-width: 1280px;
+	font-family: 'Raleway';
+	font-weight: normal;
+	font-style: normal;
+	margin: 50px auto;
+	margin-bottom: 0;
+}
+
+.pmargin
+{
+	margin: 0;
+
+}
+
+
+strong
+{
+	font-size: smaller;
+}
+
+.sectionmarginleft
+{
+	margin-left: 10px;
+}
+
+/* -- FLEXBOX -- */
+
+
+.flex
+{
+	display: flex;
+}
+
+.flexcenter
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.spacearound
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.spacebetween
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.columncenter
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.columnspacearound
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+.columnspacebetween
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.flexwrap
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+/* -- COULEURS -- */
+
+
+.ColorBleu
+{
+	color: #0065FC;
+}
+
+
+.ColorBleuC
+{
+	color: #DEEBFF;
+}
+
+
+.ColorGrisClair
+{
+	color: #F2F2F2;
+}
+
+
+.ColorGrisFonc
+{
+	color: #D3D3D3;
+}
+
+
+/* -- LOGO -- */
+
+
+.logomargin
+{
+	margin-left: 70px;
+}
+
+.taillelogo
+{
+	width: 80px; 
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+/* -- NAVIGATION DE LA PAGE -- */
+
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.bluebordertop
+{
+	border-top: 2px solid transparent ;
+}
+
+
+.bluebordertop:hover
+{
+	border-top: 2px solid #0065FC;
+	cursor: pointer;
+}
+
+
+.bluebordertop:hover > a
+{
+	color: #0065FC;
+	font-weight: bold;
+}
+
+
+.tailleglobal
+{
+	width: 25%;
+	margin: 0;
+}
+
+.taillelien
+{
+	width: 170px;
+	height: 98px;
+}
+
+
+.navmargin
+{
+	margin-top: -60px;
+}
+
+/* -- BARRE DE RECHERCHE -- */
+
+
+.iconmark
+{
+	width: 50px;
+	height: 50px;
+	background-color: #F2F2F2;
+	border-radius: 15px 0 0 15px;
+}
+
+
+.searchbartext
+{
+	height: 50px;
+	width: 230px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	margin: auto;
+}
+
+
+.bordureSearch
+{
+	width: 400px;
+	border-radius: 15px;
+	border: 1px solid #F2F2F2;
+}
+
+
+.bordureNone
+{
+	border: none;
+}
+
+
+.paddingtext
+{
+	padding-left: 20px;
+}
+
+
+.buttonsearch
+{
+	width: 120px;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+	background-color: #0065FC;
+	border-radius: 0 15px 15px 0;
+	cursor: pointer;
+}
+
+
+.buttonsearch:hover
+{
+	color: #0065FC;
+	background-color: #DEEBFF;
+}
+
+
+.pcremove
+{
+	display: none;
+}
+
+
+
+/* -- FILTRES -- */
+
+
+.margin
+{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+
+.marginfiltre
+{
+	margin-right: 20px;
+}
+
+
+.textfiltre
+{
+	border: 2px solid #d9d9d9;
+	height: 50px;
+	font-weight: bold;
+	border-radius: 50px;
+	margin: 9px;
+	cursor: pointer;
+}
+
+
+.textfiltre:hover
+{
+	color: white;
+	background-color: #0065FC;
+	cursor: pointer;
+}
+
+
+.iconfiltre
+{
+	margin-left: -2px;
+	border-radius: 25px;
+	width: 52px;
+	height: 52px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	cursor: pointer;
+}
+
+
+.paddingfiltre
+{
+	height:  50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 0 25px 25px 0;
+}
+
+
+.conteneurfiltre
+{ 
+	border: none;
+	border-width: 400px;
+}
+
+
+.paddingbottom
+{
+	padding-bottom: 5px;
+}
+
+
+/* -- INFORMATION -- */
+
+
+.info
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+
+.cercleinfo
+{
+	width: 22px;
+	height: 22px;
+	border: 2px solid #F2F2F2;
+	border-radius: 50px;
+	margin-right: 10px;	
+}
+
+
+
+/* -- HEBERGEMENT -- */
+
+
+.conteneurheberg
+{ 
+	display: block; 
+	width: 65%; 
+	height: 630px; 
+	background: #F2F2F2;
+	border-radius: 15px; 
+}
+
+
+.paddingconteneur
+{
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 20px;
+}
+
+
+.margintextheberg
+{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
+.paddingtextright
+{
+	padding-right: 25px;
+}
+
+
+.ligne1
+{
+	margin-bottom: 25px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+
+.ligne2
+{
+	margin-top: 25px;
+	margin-bottom: 50px; 
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+.bloc1
+{ 
+	display: block;
+	width: 40%;
+	height: 200px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: white;
+	padding: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
+	box-shadow: 5px 5px 5px 1px #DCDCDC;
+}
+
+
+.bloc1:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.margintextbloc
+{
+	margin-left: 10px;
+	margin-top: -10px;
+
+}
+
+.marginetoile1
+{
+	margin-top: -10px;
+}
+
+
+.image1
+{
+	background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image2
+{
+	background-image: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image3
+{
+	background-image: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image4
+{
+	background-image: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image5
+{
+	background-image: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image6
+{
+	background-image: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+/* -- POPULAIRE -- */
+
+
+.conteneurpopulaire
+{ 
+	display: block; 
+	width: 33%; 
+	height: 630px; 
+	background: #F2F2F2;
+	border-radius: 15px; 
+}
+
+
+.bloc2
+{
+	width: 80%;
+	height: 135px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px #D3D3D3;
+	padding: 5px;
+	margin-left: 35px;
+	
+}
+
+
+.bloc2:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+
+.marginbloc2
+{
+	margin-bottom: 40px;
+}
+
+
+.margintextbloc2
+{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+
+.margintitrepop
+{
+	margin-left: 35px;
+	margin-top: 10px;
+}
+
+
+.marginicon
+{
+	margin-right: 35px;
+	margin-top: 10px;
+}
+
+
+.marginetoile3
+{
+	margin-bottom: 0;
+}
+
+
+.image7
+{
+	background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 40%;
+	min-height: 135px;
+	border-radius: 15px 0 0 15px;
+}
+
+
+.image8
+{
+	background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 40%;
+	min-height: 135px;
+	border-radius: 15px 0 0 15px;
+}
+
+
+.image9
+{
+	background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 40%;
+	min-height: 135px;
+	border-radius: 15px 0 0 15px;
+}
+
+
+
+/* -- ACTIVITES MARSEILLE -- */
+
+
+.activites
+{
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.conteneuracti
+{
+	width: 100%;
+	height: 480px;
+
+}
+
+.conteneurimg2-3-5-6
+{
+	width: 22%;
+	height: 480px;
+}
+
+.positiontitre
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 5%;
+	width: 95%;
+}
+
+
+
+.bloc10-11
+{
+	width: 24%;
+	height: 480px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 1px #F2F2F2;
+
+}
+
+
+.bloc10-11:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+.bloc12
+{
+	width: 100%;
+	height: 250px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+
+.bloc12:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+.bloc13
+{
+	width: 100%;
+	height: 180px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+
+.bloc13:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+.bloc14
+{
+	width: 100%;
+	height: 210px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+
+.bloc14:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+
+.image10
+{
+	background-image: url("../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 530px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image11
+{
+	background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 250px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image12
+{
+	background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image13
+{
+	background-image: url("../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 530px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image14
+{
+	background-image: url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.image15
+{
+	background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+
+/* -- FOOTER -- */
+
+
+.conteneurfooter
+{
+	height: 300px;
+	margin-top: 80px;
+	background-color: #F2F2F2;
+}
+
+
+.blocfooter
+{
+	height: 150px;
+}
+
+
+.margefooterLeft
+{
+	margin-left: 5%;
+}
+
+
+.margefooterRight
+{
+	margin-right: 15%;
+}
